@@ -1,5 +1,5 @@
 # CSV2TFREC
-generate a TF record file and label map file from csv files
+Generate a TF record file and label map file from csv files
 
 This application can be fired from the command line to generate Tensorflow record files and label maps for object detection.  
 
@@ -18,3 +18,5 @@ CSV2TFREC.py -train_c Train.csv -l labels.csv
 <br>
 This example generates Train.record, Test.record and label_map.pbtxt  
 CSV2TFREC.py -train_c Train.csv -test_c Test.csv -l labels.csv  
+<br>
+experiment with the sample files in the repository.
